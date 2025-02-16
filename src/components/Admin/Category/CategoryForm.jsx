@@ -1,6 +1,5 @@
 import { useState } from "react";
-import Sidebar from "../Layout/Sidebar";
-
+import Sidebar from "../DashboardLayout/Sidebar";
 const demoVariables = [
   { name: "purity", label: "Purity (22, 20, 18)" },
   { name: "diameter", label: "Diameter (in inches)" },

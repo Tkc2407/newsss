@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from '../Layout/Sidebar';
+import Sidebar from "../DashboardLayout/Sidebar";
 
 const ProductTable = ({ products, editProduct, deleteProduct, searchTerm, setSearchTerm }) => {
   return (

@@ -1,6 +1,5 @@
 import { useState } from "react";
-import Sidebar from "../Layout/Sidebar";
-
+import Sidebar from "../DashboardLayout/Sidebar";
 // Demo data for categories and their corresponding variables
 const demoCategories = [
   {

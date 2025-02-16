@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from '../Layout/Sidebar';
+import Sidebar from "../DashboardLayout/Sidebar";
 
 const ProductForm = ({ addProduct }) => {
   const categories = ['Jewelry', ]; // Hardcoded categories

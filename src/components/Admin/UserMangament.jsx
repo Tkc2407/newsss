@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Sidebar from "./Layout/Sidebar";
+import Sidebar from "./DashboardLayout/Sidebar";
 
 // Mock user data for example purposes
 const usersData = [
@@ -47,7 +47,7 @@ const UserManagement = () => {
 
   return (
     <div className="flex">
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div className="bg-white p-6 rounded-lg shadow-lg mt-28 w-full">
         <h2 className="text-2xl font-semibold mb-4">User Management</h2>
         <table className="min-w-full bg-white border">

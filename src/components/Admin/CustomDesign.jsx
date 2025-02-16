@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from './Layout/Sidebar';
+import Sidebar from "./DashboardLayout/Sidebar";
 
 const CustomDesignModule = () => {
   // Sample data for custom designs (replace this with API call)
@@ -37,7 +37,7 @@ const CustomDesignModule = () => {
 
   return (
     <div className='flex'>
-        <Sidebar/>
+        {/* <Sidebar/> */}
     <div className="bg-white p-6 rounded-lg shadow-lg mt-28 w-full">
       <h2 className="text-2xl font-semibold mb-4">Custom Design Uploads</h2>
       <table className="min-w-full bg-white border border-gray-200">

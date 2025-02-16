@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from './Layout/Sidebar';
-
+import Sidebar from "./DashboardLayout/Sidebar";
 const AdminUserModule = () => {
   const [userDetails, setUserDetails] = useState({
     username: 'John Doe',
